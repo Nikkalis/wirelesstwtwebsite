@@ -6,7 +6,7 @@ const site = document.querySelector('#site');
 let number = 1;
 let numberchange = 1;
 function imageframe() {
-    image.src = 'image/Version1/image_'+number+'.png';
+    image.src = 'https://wirelesstwtwebsite.com/image/Version1/image_'+number+'.png';
     // const number = Math.floor((Math.random() * numImages) + 1);
     if (number === 1){
         numberchange = 1;
